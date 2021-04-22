@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>COAT SHOP</title>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar-top">
+            <ul class="navbar-top-ul">
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">Registro</a>
+                </li>
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">Iniciar sesión</a>
+                </li>
+                <li class="navbar-top-item">
+                    <a href="#" class="navbar-top-links">
+                        <i class="zmdi zmdi-shopping-cart"></i> Carrito
+                        <!-- <i class="zmdi zmdi-chevron-down"></i> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar">
+            <header class="nabvar-mobile is-size-5-mobile">
+                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
+                <a class="navbar-mobile-link has-text-white" href="index.html">ELEGANCIA</a>
+                <a class="navbar-mobile-link has-text-white" href="#"><i class="zmdi zmdi-shopping-cart"></i> Vacio</a>
+            </header>
+            <nav class="nav-menu --nav-dark-light" id="mySidenav">
+                <form class="form-group " action="#">
+                    <div class="form-group-container">
+                        <span class="form-group-icon"><i class="zmdi zmdi-search"></i></span>
+                        <input type="text" class="form-group-input" placeholder="Buscar...">
+                    </div>
+                </form>
+
+              
+                <a class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="index.html">LA ELEGANCIA</a>
+                <ul class="nav-menu-ul">
+                    <li class="nav-menu-item" id="men">
+                        <a class="nav-menu-link link-submenu active" href="#">CABALLERO<i
+                                class="zmdi zmdi-chevron-down"></i></a>
+                        <div class="container-sub-menu">
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Casual</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">OVERCOAT</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PEACOAT</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PARKA</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PLUMAS</a></li>
+										  <li class="nav-menu-item"><a class="nav-menu-link" href="#">CAZADORA</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Formal</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">DE VESTIR</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PEACOAT</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">TRENCH</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">SHEARLING</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">OFERTAS DE INVIERNO</h1>
+                                <h2 class="ads-h2">Desde el 45% de descuento</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-menu-item" id="women">
+                        <a href="#" class="nav-menu-link link-submenu">DAMA <i class="zmdi zmdi-chevron-down"></i> </a>
+                        <div class="container-sub-menu"> 
+                           <img src="abri2jfif" alt="">
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Casual</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PARKA</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PLUMAS</a>
+                                        </li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PEACOAT</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">OVERCOAT</a></li>
+										<li class="nav-menu-item"><a class="nav-menu-link" href="#">CAZADORA</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Formal</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">PEACOAT</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">TRENCH</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">DE VESTIR</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">SHEARLING</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">OFERTAS de INVIERNO</h1>
+                                <h2 class="ads-h2">Desde el 40% de descuento</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-menu-item"><a href="brand.html" class="nav-menu-link active">La Marca</a></li>
+                    <li class="nav-menu-item"><a href="lookbook.html" class="nav-menu-link">Look Book</a></li>
+                    <li class="nav-menu-item"><a href="login.html" class="nav-menu-link">Registro</a></li>
+                    <li class="nav-menu-item"><a href="login.html" class="nav-menu-link">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <div class="banner banner-second">
+        <div class="banner-container ">
+            <h1> </h1>
+            <h2></h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half">
+                <img src="img/img-brand-1.jpg" alt="">
+            </div>
+            <div class="column is-half">
+                <h3 class="has-text-weight-bold">SER ELEGANTE TODO EL TIEMPO ES DISFRUTAR</h3>
+                <p>Cada vez que el tiempo se paraliza para saber si podremos vestir de la manera correcta , nos damos cuenta que nosotro mismos podemos ser esa elegante vestimenta</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half">
+                <img src="img/img-brand-3.jpg">
+                <h3 class="has-text-weight-bold">LA BASE DE UN ABRIGO NO ES LO QUE PARECE</h3>
+                <p>Podemos ver a simple vista  un abrigo  precioso y elegante , pero tuvo que pasar por un proceso pulido y perfecto para  darnos el gusto de sentirnos grandiosos </p>
+            </div>
+            <div class="column is-half">
+
+                <img src="img/img-brand-2.jpg">
+                <h3 class="has-text-weight-bold">SER CABALLERO O DAMA ES LO MEJOR</h3>
+                <p>Tener respeto hacia los demas por la forma de vestirnos , hace digno de respeto  a la persona que somos .</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                           <h3 class="has-text-weight-bold">Información</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">La marca</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Tiendas locales</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Servicios </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Mapa del sitio</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Porqué comprar</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Envios y retornos</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Envios seguros</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Testimonios </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Galardonados</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Comercio internacional</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Tu cuenta</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Iniciar sesión</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Registrarse</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver carrito </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver catálogo</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Rastrear tu pedido</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Catàlogo</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Catálogo para caballeros</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Catálogo para damas</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver tu Catàlogo </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Borrar tu catalogo</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Datos de contacto</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">935026991</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">BLAIDD@gmail.com</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">@BLAIDD2021 </a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="column is-full">
+                    <div class="footer-socials">
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-facebook"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-twitter"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-instagram"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar-top">
+            <div class="container">
+                <a class="footer-bar-top-links" href="#">MODA 2021</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
